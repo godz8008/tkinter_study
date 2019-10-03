@@ -5,7 +5,7 @@ from tkinter import ttk
 
 win = tk.Tk()
 
-win.title("파이썬 GUI - Checkbutton")
+win.title("Python GUI - Checkbutton")
 
 # Checkbutton의 상태를 나타낼때 즉, 체크가 되지 않았을 때 0으로 표시
 # 체크가 되었을 때는 1로 표시할 수 있다.
