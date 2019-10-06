@@ -6,16 +6,17 @@
 # Place(absolute) : 위젯을 절대 좌표로 정하여 배치, 윈도우 크기 변경에 따라 위젯들이 변경되지
 # 않는다. 실제 많이 사용되지 않는 방법이다. 위젯.place()메서드를 사용
 
-from tkinter import *
+import tkinter as tk 
+from tkinter import ttk 
 
-win = Tk()
-lbl = Label(win, text="이름")
+win = tk.Tk()
+lbl = tk.Label(win, text="이름")
 lbl.pack()
 
-txt = Entry(win)
+txt = tk.Entry(win)
 txt.pack()
 
-btn = Button(win,text="확인")
+btn = tk.Button(win,text="확인")
 btn.pack()
 
 win.mainloop()
